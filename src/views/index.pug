@@ -1,0 +1,17 @@
+doctype
+html
+  head
+    title The Sassy Pugger
+    link(rel='stylesheet', href='style.min.css')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+
+  body
+    include partials/_header.pug
+    .banner
+      img(src="img/left-wing.png", alt="leftwing")
+      img(src="img/sasspug.jpg", alt="sasspug").img-circle
+      img(src="img/right-wing.png", alt="rightwing")
+    h3 Welcome to the
+    h1 Sassy Pugger!
+    include partials/_footer.pug
+    script(type='text/javascript', src='scripts.min.js')
