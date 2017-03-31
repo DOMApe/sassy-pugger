@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "npm run clean && cp -r ./src/img ./dist/img && webpack -p",
+    "build": "npm run clean && webpack -p",
     "clean": "rimraf ./dist/*"
   },
   "license": "MIT",
